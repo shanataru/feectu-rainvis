@@ -1,0 +1,8 @@
+shader OslTexture(
+    color tex1 = 0,
+    color tex2 = 0,
+    output color c = 0)
+{
+    float res = 1.0-((1.0-tex1[0])*(1.0-tex2[0]));
+    c = color(res, res, res);
+}

@@ -1,0 +1,373 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: oct_road1
+  m_Shader: {fileID: 4800000, guid: 49598ff5c7e6ae349be156d3e2e66352, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - displayTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - orbxUid: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &5438222183391865251
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1532797627, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OctaneXML: "<?xml version='1.0' encoding='utf-8'?>\n<OCS2 version='8010500'>\n
+    <graph id='1' type='1' name='Root'>\n  <node id='3' type='34' name='Wave Normal
+    2' position='1400 0'>\n   <attr name='filename' type='11'>Assets\\Materials\\water_normal.png</attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power'>\n    <node id='4' type='31'>\n     <attr
+    name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n   
+    <node id='5' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='6' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='7' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='8' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection' connect='153'/>\n  
+    <pin name='borderMode'>\n    <node id='9' type='57'>\n     <attr name='value'
+    type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='10' type='34'
+    name='Wave Normal 1' position='1200 0'>\n   <attr name='filename' type='11'>Assets\\Materials\\water_normal.png</attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power'>\n    <node id='11' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n   
+    <node id='12' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='13' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='14' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='15' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection' connect='154'/>\n  
+    <pin name='borderMode'>\n    <node id='16' type='57'>\n     <attr name='value'
+    type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='17' type='34'
+    name='Height' position='400 1.7069194'>\n   <attr name='filename' type='11'></attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power'>\n    <node id='18' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n   
+    <node id='19' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='20' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='21' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='22' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection'>\n    <node id='23'
+    type='78'>\n     <pin name='uvSet'>\n      <node id='24' type='9'>\n       <attr
+    name='value' type='4'>1 0 0</attr>\n      </node>\n     </pin>\n    </node>\n  
+    </pin>\n   <pin name='borderMode'>\n    <node id='25' type='57'>\n     <attr
+    name='value' type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='26'
+    type='34' name='Normal' position='600 0'>\n   <attr name='filename' type='11'></attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power'>\n    <node id='27' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n   
+    <node id='28' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='29' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='30' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='31' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection'>\n    <node id='32'
+    type='78'>\n     <pin name='uvSet'>\n      <node id='33' type='9'>\n       <attr
+    name='value' type='4'>1 0 0</attr>\n      </node>\n     </pin>\n    </node>\n  
+    </pin>\n   <pin name='borderMode'>\n    <node id='34' type='57'>\n     <attr
+    name='value' type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='35'
+    type='34' name='Albedo' position='200 0'>\n   <attr name='filename' type='11'></attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power'>\n    <node id='36' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n   
+    <node id='37' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='38' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='39' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='40' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection'>\n    <node id='41'
+    type='78'>\n     <pin name='uvSet'>\n      <node id='42' type='9'>\n       <attr
+    name='value' type='4'>1 0 0</attr>\n      </node>\n     </pin>\n    </node>\n  
+    </pin>\n   <pin name='borderMode'>\n    <node id='43' type='57'>\n     <attr
+    name='value' type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='44'
+    type='34' name='Roughness' position='800 0'>\n   <attr name='filename' type='11'></attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power' connect='81'/>\n   <pin name='gamma'>\n   
+    <node id='45' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='46' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='47' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='48' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection'>\n    <node id='49'
+    type='78'>\n     <pin name='uvSet'>\n      <node id='50' type='9'>\n       <attr
+    name='value' type='4'>1 0 0</attr>\n      </node>\n     </pin>\n    </node>\n  
+    </pin>\n   <pin name='borderMode'>\n    <node id='51' type='57'>\n     <attr
+    name='value' type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='52'
+    type='34' name='AmbientOcclusion' position='0 0'>\n   <attr name='filename' type='11'></attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power'>\n    <node id='53' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n   
+    <node id='54' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='55' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='56' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='57' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection'>\n    <node id='58'
+    type='78'>\n     <pin name='uvSet'>\n      <node id='59' type='9'>\n       <attr
+    name='value' type='4'>1 0 0</attr>\n      </node>\n     </pin>\n    </node>\n  
+    </pin>\n   <pin name='borderMode'>\n    <node id='60' type='57'>\n     <attr
+    name='value' type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='61'
+    type='34' name='PuddleMap' position='1000 0'>\n   <attr name='filename' type='11'></attr>\n  
+    <attr name='channelFormat' type='2'>2</attr>\n   <attr name='imageChosenLayerName'
+    type='10'></attr>\n   <pin name='power'>\n    <node id='62' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n   
+    <node id='63' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='invert'>\n    <node id='64' type='11'>\n    
+    <attr name='value' type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='linearSpaceInvert'>\n   
+    <node id='65' type='11'>\n     <attr name='value' type='1'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='transform'>\n    <node id='66' type='67'>\n     <attr name='rotationOrder'
+    type='2'>2</attr>\n     <attr name='rotation' type='8'>-0 0 0</attr>\n     <attr
+    name='scale' type='8'>1 1 1</attr>\n     <attr name='translation' type='8'>0
+    0 0</attr>\n    </node>\n   </pin>\n   <pin name='projection' connect='156'/>\n  
+    <pin name='borderMode'>\n    <node id='67' type='57'>\n     <attr name='value'
+    type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <graph id='68' type='5'
+    name='CreateWetRoadMaterial' inspectable='0' position='-406.00702 -68.2733'>\n  
+    <attr name='script' type='10'></attr>\n   <attr name='color' type='8'>1 1 1</attr>\n  
+    <attr name='filename' type='11'></attr>\n   <attr name='requiredLuaFileNames'
+    type='11' arrayId='1'></attr>\n   <attr name='assetFileNames' type='11' arrayId='1'></attr>\n  
+    <attr name='resetOnInit' type='1'>1</attr>\n   <attr name='scriptStorage' type='10'></attr>\n  
+    <node id='70' type='20023' name='ScriptDir' position='0 -100'>\n    <attr name='group'
+    type='10'></attr>\n    <attr name='description' type='10'></attr>\n    <pin name='input'>\n    
+    <node id='71' type='101'>\n      <attr name='value' type='11'>Assets\\Scripts</attr>\n    
+    </node>\n    </pin>\n   </node>\n  </graph>\n  <graph id='73' type='5' name='WetRoad'
+    inspectable='0' position='700 -200'>\n   <attr name='script' type='10'></attr>\n  
+    <attr name='color' type='8'>1 1 1</attr>\n   <attr name='filename' type='11'></attr>\n  
+    <attr name='requiredLuaFileNames' type='11' arrayId='1'></attr>\n   <attr name='assetFileNames'
+    type='11' arrayId='1'></attr>\n   <attr name='resetOnInit' type='1'>1</attr>\n  
+    <attr name='scriptStorage' type='10'></attr>\n   <node id='75' type='20002' name='Wetness'
+    position='0 -100'>\n    <attr name='group' type='10'></attr>\n    <attr name='description'
+    type='10'></attr>\n    <pin name='input'>\n     <node id='76' type='6'>\n     
+    <attr name='value' type='8'>1 0 0</attr>\n     </node>\n    </pin>\n   </node>\n  
+    <node id='77' type='20002' name='Water Level' position='100 -100'>\n    <attr
+    name='group' type='10'></attr>\n    <attr name='description' type='10'></attr>\n   
+    <pin name='input'>\n     <node id='78' type='6'>\n      <attr name='value' type='8'>1
+    0 0</attr>\n     </node>\n    </pin>\n   </node>\n   <node id='79' type='30002'
+    name='Darken' position='0 100'>\n    <attr name='group' type='10'></attr>\n   
+    <attr name='description' type='10'></attr>\n   </node>\n   <node id='80' type='30005'
+    name='Specular' position='100 100'>\n    <attr name='group' type='10'></attr>\n   
+    <attr name='description' type='10'></attr>\n   </node>\n   <node id='81' type='30005'
+    name='Smoothness' position='200 100'>\n    <attr name='group' type='10'></attr>\n   
+    <attr name='description' type='10'></attr>\n   </node>\n   <node id='82' type='30002'
+    name='Puddle Fill' position='300 100'>\n    <attr name='group' type='10'></attr>\n   
+    <attr name='description' type='10'></attr>\n   </node>\n   <node id='83' type='30005'
+    name='Puddle Intensity' position='400 100'>\n    <attr name='group' type='10'></attr>\n   
+    <attr name='description' type='10'></attr>\n   </node>\n  </graph>\n  <node id='85'
+    type='51' name='Color correction' position='200 100'>\n   <pin name='texture'
+    connect='138'/>\n   <pin name='brightness'>\n    <node id='86' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='invert'>\n   
+    <node id='87' type='11'>\n     <attr name='value' type='1'>0</attr>\n    </node>\n  
+    </pin>\n   <pin name='hue'>\n    <node id='88' type='6'>\n     <attr name='value'
+    type='8'>0 0 0</attr>\n    </node>\n   </pin>\n   <pin name='saturation'>\n   
+    <node id='89' type='6'>\n     <attr name='value' type='8'>1 0 0</attr>\n    </node>\n  
+    </pin>\n   <pin name='gamma' connect='79'/>\n   <pin name='contrast'>\n    <node
+    id='90' type='6'>\n     <attr name='value' type='8'>0.001 0 0</attr>\n    </node>\n  
+    </pin>\n  </node>\n  <node id='91' type='51' name='Color correction' position='400
+    100'>\n   <pin name='texture' connect='35'/>\n   <pin name='brightness'>\n   
+    <node id='92' type='31'>\n     <attr name='value' type='6'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='invert'>\n    <node id='93' type='11'>\n     <attr name='value'
+    type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='hue'>\n    <node id='94'
+    type='6'>\n     <attr name='value' type='8'>0 0 0</attr>\n    </node>\n   </pin>\n  
+    <pin name='saturation'>\n    <node id='95' type='6'>\n     <attr name='value'
+    type='8'>1 0 0</attr>\n    </node>\n   </pin>\n   <pin name='gamma'>\n    <node
+    id='96' type='6'>\n     <attr name='value' type='8'>2.2 0 0</attr>\n    </node>\n  
+    </pin>\n   <pin name='contrast'>\n    <node id='97' type='6'>\n     <attr name='value'
+    type='8'>0.001 0 0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='98'
+    type='16' name='Road Material' position='700 300'>\n   <pin name='diffuse' connect='85'/>\n  
+    <pin name='specular' connect='139'/>\n   <pin name='brdf'>\n    <node id='99'
+    type='57'>\n     <attr name='value' type='2'>0</attr>\n    </node>\n   </pin>\n  
+    <pin name='roughness' connect='44'/>\n   <pin name='anisotropy'>\n    <node id='100'
+    type='6'>\n     <attr name='value' type='8'>0 0 0</attr>\n    </node>\n   </pin>\n  
+    <pin name='rotation'>\n    <node id='101' type='31'>\n     <attr name='value'
+    type='6'>0</attr>\n    </node>\n   </pin>\n   <pin name='filmwidth'>\n    <node
+    id='102' type='31'>\n     <attr name='value' type='6'>0</attr>\n    </node>\n  
+    </pin>\n   <pin name='filmindex'>\n    <node id='103' type='6'>\n     <attr name='value'
+    type='8'>1.45 0 0</attr>\n    </node>\n   </pin>\n   <pin name='sheen'>\n   
+    <node id='104' type='33'>\n     <attr name='value' type='8'>0 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='sheenRoughness'>\n    <node id='105' type='31'>\n    
+    <attr name='value' type='6'>0.2</attr>\n    </node>\n   </pin>\n   <pin name='index'>\n   
+    <node id='106' type='6'>\n     <attr name='value' type='8'>1.3 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='opacity'>\n    <node id='107' type='31'>\n    
+    <attr name='value' type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='normal'
+    connect='26'/>\n   <pin name='smooth'>\n    <node id='108' type='11'>\n     <attr
+    name='value' type='1'>1</attr>\n    </node>\n   </pin>\n   <pin name='roundEdges'>\n   
+    <node id='109' type='137'>\n     <pin name='roundEdgesMode'>\n      <node id='110'
+    type='57'>\n       <attr name='value' type='2'>1</attr>\n      </node>\n    
+    </pin>\n     <pin name='roundEdgesRadius'>\n      <node id='111' type='6'>\n      
+    <attr name='value' type='8'>0 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='roundEdgesCurvatureRoundness'>\n      <node id='112' type='6'>\n      
+    <attr name='value' type='8'>1 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='roundEdgesSampleCount'>\n      <node id='113' type='9'>\n       <attr name='value'
+    type='4'>8 0 0</attr>\n      </node>\n     </pin>\n     <pin name='roundEdgesConsiderOtherObjects'>\n     
+    <node id='114' type='11'>\n       <attr name='value' type='1'>0</attr>\n     
+    </node>\n     </pin>\n    </node>\n   </pin>\n   <pin name='layer'>\n    <node
+    id='115' type='144'>\n     <attr name='pin_count' type='2'>0</attr>\n    </node>\n  
+    </pin>\n  </node>\n  <node id='116' type='16' name='Puddle Material' position='1100
+    300'>\n   <pin name='diffuse' connect='91'/>\n   <pin name='specular'>\n    <node
+    id='117' type='31'>\n     <attr name='value' type='6'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='brdf'>\n    <node id='118' type='57'>\n     <attr name='value'
+    type='2'>0</attr>\n    </node>\n   </pin>\n   <pin name='roughness'>\n    <node
+    id='119' type='31'>\n     <attr name='value' type='6'>0.063199997</attr>\n   
+    </node>\n   </pin>\n   <pin name='anisotropy'>\n    <node id='120' type='6'>\n    
+    <attr name='value' type='8'>0 0 0</attr>\n    </node>\n   </pin>\n   <pin name='rotation'>\n   
+    <node id='121' type='31'>\n     <attr name='value' type='6'>0</attr>\n    </node>\n  
+    </pin>\n   <pin name='filmwidth'>\n    <node id='122' type='31'>\n     <attr
+    name='value' type='6'>0</attr>\n    </node>\n   </pin>\n   <pin name='filmindex'>\n   
+    <node id='123' type='6'>\n     <attr name='value' type='8'>1.45 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='sheen'>\n    <node id='124' type='33'>\n    
+    <attr name='value' type='8'>0 0 0</attr>\n    </node>\n   </pin>\n   <pin name='sheenRoughness'>\n   
+    <node id='125' type='31'>\n     <attr name='value' type='6'>0.2</attr>\n    </node>\n  
+    </pin>\n   <pin name='index'>\n    <node id='126' type='6'>\n     <attr name='value'
+    type='8'>1.3 0 0</attr>\n    </node>\n   </pin>\n   <pin name='opacity'>\n   
+    <node id='127' type='31'>\n     <attr name='value' type='6'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='bump' connect='155'/>\n   <pin name='normal' connect='136'/>\n  
+    <pin name='smooth'>\n    <node id='128' type='11'>\n     <attr name='value' type='1'>1</attr>\n   
+    </node>\n   </pin>\n   <pin name='roundEdges'>\n    <node id='129' type='137'>\n    
+    <pin name='roundEdgesMode'>\n      <node id='130' type='57'>\n       <attr name='value'
+    type='2'>1</attr>\n      </node>\n     </pin>\n     <pin name='roundEdgesRadius'>\n     
+    <node id='131' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n     
+    </node>\n     </pin>\n     <pin name='roundEdgesCurvatureRoundness'>\n      <node
+    id='132' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n    
+    </pin>\n     <pin name='roundEdgesSampleCount'>\n      <node id='133' type='9'>\n      
+    <attr name='value' type='4'>8 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='roundEdgesConsiderOtherObjects'>\n      <node id='134' type='11'>\n      
+    <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n    </node>\n  
+    </pin>\n   <pin name='layer'>\n    <node id='135' type='144'>\n     <attr name='pin_count'
+    type='2'>0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='136' type='38'
+    name='Mix texture' position='1300 50'>\n   <pin name='amount'>\n    <node id='137'
+    type='31'>\n     <attr name='value' type='6'>0.5</attr>\n    </node>\n   </pin>\n  
+    <pin name='texture1' connect='10'/>\n   <pin name='texture2' connect='3'/>\n 
+    </node>\n  <node id='138' type='39' name='Multiply texture' position='0 50'>\n  
+    <pin name='texture1' connect='35'/>\n   <pin name='texture2' connect='52'/>\n 
+    </node>\n  <node id='139' type='51' name='Color correction' position='600 100'>\n  
+    <pin name='texture' connect='17'/>\n   <pin name='brightness' connect='80'/>\n  
+    <pin name='invert'>\n    <node id='140' type='11'>\n     <attr name='value' type='1'>1</attr>\n   
+    </node>\n   </pin>\n   <pin name='hue'>\n    <node id='141' type='6'>\n     <attr
+    name='value' type='8'>0 0 0</attr>\n    </node>\n   </pin>\n   <pin name='saturation'>\n   
+    <node id='142' type='6'>\n     <attr name='value' type='8'>1 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='gamma'>\n    <node id='143' type='6'>\n    
+    <attr name='value' type='8'>1 0 0</attr>\n    </node>\n   </pin>\n   <pin name='contrast'>\n   
+    <node id='144' type='6'>\n     <attr name='value' type='8'>0.001 0 0</attr>\n   
+    </node>\n   </pin>\n  </node>\n  <node id='145' type='51' name='Color correction'
+    position='800 100'>\n   <pin name='texture' connect='17'/>\n   <pin name='brightness'>\n   
+    <node id='146' type='31'>\n     <attr name='value' type='6'>1</attr>\n    </node>\n  
+    </pin>\n   <pin name='invert'>\n    <node id='147' type='11'>\n     <attr name='value'
+    type='1'>0</attr>\n    </node>\n   </pin>\n   <pin name='hue'>\n    <node id='148'
+    type='6'>\n     <attr name='value' type='8'>0 0 0</attr>\n    </node>\n   </pin>\n  
+    <pin name='saturation'>\n    <node id='149' type='6'>\n     <attr name='value'
+    type='8'>1 0 0</attr>\n    </node>\n   </pin>\n   <pin name='gamma' connect='82'/>\n  
+    <pin name='contrast'>\n    <node id='150' type='6'>\n     <attr name='value'
+    type='8'>25 0 0</attr>\n    </node>\n   </pin>\n  </node>\n  <node id='151' type='19'
+    name='Mix Material' position='800 400'>\n   <pin name='amount' connect='152'/>\n  
+    <pin name='material1' connect='98'/>\n   <pin name='material2' connect='116'/>\n 
+    </node>\n  <node id='152' type='106' name='Add texture' position='400 300'>\n  
+    <pin name='texture1' connect='83'/>\n   <pin name='texture2' connect='155'/>\n 
+    </node>\n  <node id='153' type='125' name='OSL Waves' position='1400 -50'>\n  
+    <attr name='filename' type='11'></attr>\n   <attr name='shaderCode' type='10'>shader
+    OslProjection(\n    output point uvw = 0)\n{\n    uvw = point(u, v, 0);\n}\n</attr>\n 
+    </node>\n  <node id='154' type='125' name='OSL Waves' position='1200 -50'>\n  
+    <attr name='filename' type='11'></attr>\n   <attr name='shaderCode' type='10'>shader
+    OslProjection(\n    output point uvw = 0)\n{\n    uvw = point(u, v, 0);\n}\n</attr>\n 
+    </node>\n  <node id='155' type='117' name='OSL Tex Screen' position='1000 200'>\n  
+    <attr name='filename' type='11'></attr>\n   <attr name='shaderCode' type='10'>shader
+    OslTexture(\n    output color c = 0)\n{\n    c = color(0.7, 0.7, 0.7);\n}\n</attr>\n 
+    </node>\n  <node id='156' type='125' name='OSL Puddles' position='1000 -50'>\n  
+    <attr name='filename' type='11'></attr>\n   <attr name='shaderCode' type='10'>shader
+    OslProjection(\n    output point uvw = 0)\n{\n    uvw = point(u, v, 0);\n}\n</attr>\n 
+    </node>\n  <node id='2' type='30007' name='Material out' position='803.74304
+    500.5451'>\n   <attr name='group' type='10'></attr>\n   <attr name='description'
+    type='10'></attr>\n   <pin name='input' connect='151'/>\n  </node>\n </graph>\n</OCS2>\n"
+  Textures: []

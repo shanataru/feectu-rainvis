@@ -1,0 +1,7 @@
+shader OslProjection(
+    float puddleMapScale = 30.0,
+    output point uvw = 0)
+{
+    point worldPos = P/puddleMapScale;
+    uvw = point(1-worldPos[0], worldPos[2], 0);
+}

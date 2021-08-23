@@ -1,0 +1,13 @@
+shader OslProjectionWaves2(
+    float t = 0,
+    float waveScale = 0,
+    float waveSpeedX = 0,
+    float waveSpeedZ = 0,
+    output point uvw = 0)
+{
+    float offsetX = waveSpeedX * waveScale  * 0.45 * t; 
+    float offsetZ = waveSpeedZ * waveScale * 0.4 * t;
+
+    point worldPos = point(P[0] * waveScale * 0.45, 0, P[2] * waveScale * 0.4) + point(offsetX, 0, offsetZ);
+    uvw = point(1-worldPos[0], worldPos[2], 0);
+}

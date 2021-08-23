@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2993124869381810898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1532797627, guid: f654ca2983870b74ea8b9a258e509846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OctaneXML: "<?xml version='1.0' encoding='utf-8'?>\n<OCS2 version='8010500'>\n
+    <graph id='1' type='1' name='Root'>\n  <node id='3' type='16' name='Glossy material'
+    position='305 44.5'>\n   <pin name='diffuse'>\n    <node id='4' type='33'>\n    
+    <attr name='value' type='8'>0.14293192 0.23626262 0.69999999</attr>\n    </node>\n  
+    </pin>\n   <pin name='specular'>\n    <node id='5' type='31'>\n     <attr name='value'
+    type='6'>1</attr>\n    </node>\n   </pin>\n   <pin name='brdf'>\n    <node id='6'
+    type='57'>\n     <attr name='value' type='2'>0</attr>\n    </node>\n   </pin>\n  
+    <pin name='roughness'>\n    <node id='7' type='31'>\n     <attr name='value'
+    type='6'>0.69999999</attr>\n    </node>\n   </pin>\n   <pin name='anisotropy'>\n   
+    <node id='8' type='6'>\n     <attr name='value' type='8'>0 0 0</attr>\n    </node>\n  
+    </pin>\n   <pin name='rotation'>\n    <node id='9' type='31'>\n     <attr name='value'
+    type='6'>0</attr>\n    </node>\n   </pin>\n   <pin name='filmwidth'>\n    <node
+    id='10' type='31'>\n     <attr name='value' type='6'>0</attr>\n    </node>\n  
+    </pin>\n   <pin name='filmindex'>\n    <node id='11' type='6'>\n     <attr name='value'
+    type='8'>1.45 0 0</attr>\n    </node>\n   </pin>\n   <pin name='sheen'>\n   
+    <node id='12' type='33'>\n     <attr name='value' type='8'>0 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='sheenRoughness'>\n    <node id='13' type='31'>\n    
+    <attr name='value' type='6'>0.2</attr>\n    </node>\n   </pin>\n   <pin name='index'>\n   
+    <node id='14' type='6'>\n     <attr name='value' type='8'>1.3 0 0</attr>\n   
+    </node>\n   </pin>\n   <pin name='opacity'>\n    <node id='15' type='31'>\n    
+    <attr name='value' type='6'>0.99900001</attr>\n    </node>\n   </pin>\n   <pin
+    name='smooth'>\n    <node id='16' type='11'>\n     <attr name='value' type='1'>1</attr>\n   
+    </node>\n   </pin>\n   <pin name='roundEdges'>\n    <node id='17' type='137'>\n    
+    <pin name='roundEdgesMode'>\n      <node id='18' type='57'>\n       <attr name='value'
+    type='2'>1</attr>\n      </node>\n     </pin>\n     <pin name='roundEdgesRadius'>\n     
+    <node id='19' type='6'>\n       <attr name='value' type='8'>0 0 0</attr>\n     
+    </node>\n     </pin>\n     <pin name='roundEdgesCurvatureRoundness'>\n      <node
+    id='20' type='6'>\n       <attr name='value' type='8'>1 0 0</attr>\n      </node>\n    
+    </pin>\n     <pin name='roundEdgesSampleCount'>\n      <node id='21' type='9'>\n      
+    <attr name='value' type='4'>8 0 0</attr>\n      </node>\n     </pin>\n     <pin
+    name='roundEdgesConsiderOtherObjects'>\n      <node id='22' type='11'>\n      
+    <attr name='value' type='1'>0</attr>\n      </node>\n     </pin>\n    </node>\n  
+    </pin>\n   <pin name='layer'>\n    <node id='23' type='144'>\n     <attr name='pin_count'
+    type='2'>1</attr>\n     <pin name='Layer 1' dynamicType='33'>\n      <node id='24'
+    type='139' name='Specular layer'>\n       <pin name='specular'>\n        <node
+    id='25' type='33'>\n         <attr name='value' type='8'>1 1 1</attr>\n       
+    </node>\n       </pin>\n       <pin name='transmission'>\n        <node id='26'
+    type='33'>\n         <attr name='value' type='8'>1 1 1</attr>\n        </node>\n      
+    </pin>\n       <pin name='brdf'>\n        <node id='27' type='57'>\n        
+    <attr name='value' type='2'>2</attr>\n        </node>\n       </pin>\n      
+    <pin name='roughness'>\n        <node id='28' type='31'>\n         <attr name='value'
+    type='6'>0.30000001</attr>\n        </node>\n       </pin>\n       <pin name='affectRoughness'>\n       
+    <node id='29' type='6'>\n         <attr name='value' type='8'>0 0 0</attr>\n       
+    </node>\n       </pin>\n       <pin name='anisotropy'>\n        <node id='30'
+    type='6'>\n         <attr name='value' type='8'>0 0 0</attr>\n        </node>\n      
+    </pin>\n       <pin name='rotation'>\n        <node id='31' type='31'>\n        
+    <attr name='value' type='6'>0</attr>\n        </node>\n       </pin>\n      
+    <pin name='index'>\n        <node id='32' type='6'>\n         <attr name='value'
+    type='8'>1.5 0 0</attr>\n        </node>\n       </pin>\n       <pin name='filmwidth'>\n       
+    <node id='33' type='31'>\n         <attr name='value' type='6'>0</attr>\n       
+    </node>\n       </pin>\n       <pin name='filmindex'>\n        <node id='34'
+    type='6'>\n         <attr name='value' type='8'>1.45 0 0</attr>\n        </node>\n      
+    </pin>\n       <pin name='thinLayer'>\n        <node id='35' type='11'>\n        
+    <attr name='value' type='1'>1</attr>\n        </node>\n       </pin>\n      
+    <pin name='dispersion_coefficient_B'>\n        <node id='36' type='6'>\n        
+    <attr name='value' type='8'>0 0 0</attr>\n        </node>\n       </pin>\n      
+    <pin name='opacity'>\n        <node id='37' type='31'>\n         <attr name='value'
+    type='6'>0.60000002</attr>\n        </node>\n       </pin>\n      </node>\n    
+    </pin>\n    </node>\n   </pin>\n  </node>\n  <node id='2' type='30007' name='Material
+    out' position='163 133'>\n   <attr name='group' type='10'></attr>\n   <attr name='description'
+    type='10'></attr>\n   <pin name='input' connect='3'/>\n  </node>\n </graph>\n</OCS2>\n"
+  Textures: []
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightBlueMetal
+  m_Shader: {fileID: 4800000, guid: 49598ff5c7e6ae349be156d3e2e66352, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - displayTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - orbxUid: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
