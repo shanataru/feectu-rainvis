@@ -1,9 +1,13 @@
 # Visual Simulation of Rain
 Master's Thesis at FEE CTU
 
-### Thesis
+### Thesis Full Text
 
-https://dspace.cvut.cz/handle/10467/95289
+[Download Here](https://dspace.cvut.cz/bitstream/handle/10467/95289/F3-DP-2021-Nguyenova-Giang%20Chau-text.pdf?sequence=-1&isAllowed=y)
+
+Faculty page: https://dspace.cvut.cz/handle/10467/95289
+
+
 
 ### CESCG 2021
 
