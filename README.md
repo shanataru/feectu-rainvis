@@ -8,6 +8,13 @@ Master's Thesis at FEE CTU
 Faculty page: https://dspace.cvut.cz/handle/10467/95289
 
 
+### Thesis Defence - Presentation
+
+[Link](https://drive.google.com/file/d/1QVL3f0ga1zAUJCfFXsD_DVH6tTfAveI4/view?usp=sharing)
+
+
+### Video 
+
 
 ### CESCG 2021
 
